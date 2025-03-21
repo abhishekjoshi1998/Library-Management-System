@@ -8,6 +8,7 @@ import Profile from './pages/Profile'
 import AdminDashboard from './pages/AdminDashboard'
 import Register from './pages/Register'
 import BorrowedBooks from './pages/BorrowedBooks'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
      <Navbar/>
-    
+   
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/catalog' element={<BookCatalog/>}/>
@@ -24,6 +25,7 @@ function App() {
       <Route path='/signupr' element={<Register/>}/>
       <Route path='/borrow' element={<BorrowedBooks/>}/>
       </Routes>
+
     
       
     </>
