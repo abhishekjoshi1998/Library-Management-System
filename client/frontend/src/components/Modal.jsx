@@ -9,9 +9,7 @@ function Modal({ isOpen, onClose, title, children }) {
         <h2 className="text-xl font-bold">{title}</h2>
         <div className="mt-2">{children}</div>
         <button 
-          onClick={onClose} 
-          className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
-        >
+          onClick={onClose} className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
           Close
         </button>
       </div>
