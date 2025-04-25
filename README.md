@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 ✔ **Responsive Navbar** (Desktop & Mobile)  
 ✔ **Home Page** with interactive UI  
